@@ -4,6 +4,7 @@ app-arch/p7zip
 app-arch/rar
 app-backup/snapper
 app-backup/snapper-gui
+app-dicts/fcitx5-pinyin-moegirl
 app-dicts/fcitx5-pinyin-zhwiki
 app-editors/vim
 app-emulation/virt-manager
@@ -13,6 +14,7 @@ app-eselect/eselect-python
 app-eselect/eselect-repository
 app-i18n/fcitx-gtk
 app-i18n/fcitx-meta
+app-i18n/uim
 app-misc/beep
 app-misc/ca-certificates
 app-misc/cheat
@@ -28,6 +30,7 @@ app-pda/libimobiledevice
 app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/gentoolkit
+app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-shells/zsh-autosuggestions
 app-shells/zsh-completions
@@ -52,7 +55,12 @@ kde-apps/krecorder
 kde-misc/skanlite
 kde-plasma/plasma-firewall
 kde-plasma/plasma-meta
+media-fonts/noto-emoji
+media-fonts/opendesktop-fonts
 media-fonts/source-code-pro
+media-fonts/source-han-mono
+media-fonts/source-han-sans
+media-fonts/source-han-serif
 media-fonts/source-sans
 media-fonts/source-serif
 media-fonts/wqy-bitmapfont
@@ -68,7 +76,6 @@ media-video/uxplay
 media-video/v4l2loopback
 media-video/vlc
 net-im/dingtalk
-net-im/tencent-qq
 net-im/weixin-uos
 net-im/wemeet
 net-misc/axel
@@ -85,6 +92,7 @@ net-proxy/clash
 net-wireless/bluez
 net-wireless/iwd
 sci-mathematics/geogebra-bin
+sys-apps/merge-usr
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-apps/xdg-desktop-portal-gtk
