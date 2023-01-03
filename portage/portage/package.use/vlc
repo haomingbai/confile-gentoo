@@ -1,0 +1,34 @@
+media-video/vlc srt skins lua
+# required by app-containers/lxc-5.0.0::gentoo[caps,tools]
+# required by app-emulation/anbox-20211020::src_prepare-overlay
+# required by anbox (argument)
+>=sys-libs/libcap-2.64 static-libs
+# required by media-video/uxplay-1.54::guru
+# required by uxplay (argument)
+>=net-dns/avahi-0.8-r5 mdnsresponder-compat
+# required by app-accessibility/brltty-6.4-r1::gentoo
+# required by app-emulation/qemu-7.0.0-r3::gentoo[-static,accessibility]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre2-10.40 pcre32
+
+kde-apps/kmix pulseaudio
+# required by media-sound/netease-cloud-music-1.2.1::gentoo-zh
+# required by netease-cloud-music (argument)
+>=media-video/vlc-3.0.17.4 taglib x265
+# required by app-pda/i4tools-1.0.055::haomingbai
+# required by i4tools (argument)
+#>=media-video/ffmpeg-4.4.2 libcaca cdio iec61883 ieee1394 twolame webp librtmp jack speex
+# required by app-pda/i4tools-1.0.055::haomingbai
+# required by i4tools (argument)
+#>=media-plugins/gst-plugins-meta-1.20.3 wavpack
+# required by www-client/uget-2.2.1-r1::gentoo[aria2]
+# required by uget (argument)
+>=net-misc/aria2-1.36.0-r1 xmlrpc bittorrent
+# required by app-pda/i4tools-1.0.055::haomingbai
+# required by i4tools (argument)
+>=media-video/ffmpeg-4.4.3 iec61883 jack librtmp twolame webp libcaca speex cdio ieee1394
+# required by app-pda/i4tools-1.0.055::haomingbai
+# required by i4tools (argument)
+>=media-plugins/gst-plugins-meta-1.20.3 wavpack
+media-video/vlc qt5 gnutls live lua matroska rtsp theora upnp vcdx
