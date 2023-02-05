@@ -27,8 +27,16 @@ kde-apps/kmix pulseaudio
 >=net-misc/aria2-1.36.0-r1 xmlrpc bittorrent
 # required by app-pda/i4tools-1.0.055::haomingbai
 # required by i4tools (argument)
->=media-video/ffmpeg-4.4.3 iec61883 jack librtmp twolame webp libcaca speex cdio ieee1394
+>=media-video/ffmpeg-4.4.3 iec61883 jack librtmp twolame webp libcaca speex cdio ieee1394 libass
 # required by app-pda/i4tools-1.0.055::haomingbai
 # required by i4tools (argument)
 >=media-plugins/gst-plugins-meta-1.20.3 wavpack
 media-video/vlc qt5 gnutls live lua matroska rtsp theora upnp vcdx
+# required by www-client/firefox-108.0.2::gentoo[pgo,X]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-21.1.6 xvfb
+# required by www-client/firefox-108.0.2::gentoo[pgo,wayland]
+# required by @selected
+# required by @world (argument)
+>=gui-libs/wlroots-0.16.1 tinywl
