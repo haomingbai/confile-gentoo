@@ -1,3 +1,0 @@
-app-office/libreoffice	java clang
-media-gfx/fontforge	-X -gtk
-net-print/hplip	-X -qt5 -kde -libnotify

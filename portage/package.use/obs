@@ -1,3 +1,0 @@
-media-video/obs-studio	pipewire pulseaudio
-media-tv/v4l-utils	-qt5
-net-dns/avahi	-gtk -qt5

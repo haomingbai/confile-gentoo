@@ -1,4 +1,0 @@
-media-video/pipewire bluetooth dbus extra jack-sdk pipewire-alsa systemd sound-server
-# required by sci-mathematics/geogebra-bin-5.0.683.0::gentoo
-# required by geogebra-bin (argument)
->=dev-java/openjdk-11.0.15_p10-r1:11 javafx
